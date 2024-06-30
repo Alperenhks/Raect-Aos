@@ -36,7 +36,7 @@ npm run dev
 ```
 
 ## bileşenler
- Card
+### Card
 
 Card bileşeni, bir resim, başlık, açıklama ve bağlantı içeren bir kart görüntüler. Resim yüklenene kadar shimmer (iskelet yükleme) efekti kullanır.
 
@@ -65,8 +65,23 @@ function App() {
 }
 
 export default App;
+```
 
 ### hooklar
 
+### useScrollAnimation
 
+useScrollAnimation hook'u, AOS'u özel seçeneklerle başlatır.
 
+### Parametreler
+
+`options` (`object`): Aşağıdaki özellikleri içeren bir nesne:
+`duration` `(number`): Animasyon süresi milisaniye cinsinden (varsayılan: 800).
+`easing` (`string`): Easing fonksiyonu (varsayılan: 'ease-in-out').
+`once` (`boolean`): Animasyonun sadece bir kez olup olmayacağı (varsayılan: true).
+
+### Örnek Kullanım
+
+```jsx
+useScrollAnimation({ duration: 1000, easing: 'ease-out', once: false });
+```
