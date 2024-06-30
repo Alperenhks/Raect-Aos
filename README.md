@@ -73,10 +73,10 @@ useScrollAnimation hook'u, AOS'u özel seçeneklerle başlatır.
 
 ### Parametreler
 
-`options` (`object`): Aşağıdaki özellikleri içeren bir nesne:
-`duration` `(number`): Animasyon süresi milisaniye cinsinden (varsayılan: 800).
-`easing` (`string`): Easing fonksiyonu (varsayılan: 'ease-in-out').
-`once` (`boolean`): Animasyonun sadece bir kez olup olmayacağı (varsayılan: true).
+- `options` (`object`): Aşağıdaki özellikleri içeren bir nesne:
+- `duration` `(number`): Animasyon süresi milisaniye cinsinden (varsayılan: 800).
+- `easing` (`string`): Easing fonksiyonu (varsayılan: 'ease-in-out').
+- `once` (`boolean`): Animasyonun sadece bir kez olup olmayacağı (varsayılan: true).
 
 ### Örnek Kullanım
 
