@@ -1,0 +1,23 @@
+.home {
+    margin: 20px;
+  }
+  
+  .home__content {
+    text-align: center;
+  }
+  
+  .home__content h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .home__content p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .home__image img {
+    width: 30%;
+    height: auto;
+  }
+  
