@@ -8,8 +8,6 @@ Bu proje, React uygulamasında AOS (Animate On Scroll) kütüphanesinin kullanı
 - [Kullanım](#kullanım)
 - [Bileşenler](#bileşenler)
 - [Hook'lar](#hooklar)
-- [Stil](#stil)
-- [Lisans](#lisans)
 
 ## Kurulum
 
